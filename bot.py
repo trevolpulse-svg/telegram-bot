@@ -1,7 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
+import os
 API_TOKEN = os.getenv("TOKEN")
 URL_LEVEL_TRAVEL = "https://level.tpx.lv/shWiTpL2"
 URL_YANDEX_TRAVEL = "https://yandex.tpx.lv/nzDf0OXJ"
