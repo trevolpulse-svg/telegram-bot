@@ -1,7 +1,7 @@
 import asyncio
 import os
-from aiogram import Bot, Dispatcher, F
-from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
+from aiogram import Bot, Dispatcher
+from aiogram.types import Message
 
 TOKEN = os.getenv("TOKEN")
 
